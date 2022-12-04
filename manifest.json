@@ -1,0 +1,23 @@
+{
+  "application": {
+    "gecko": {
+      "id": "gahnoo-linux-firefox@mfek.org"
+    }
+  },
+  "description": "Makes your user agent GNU/Linux instead of just Linux",
+  "manifest_version": 2,
+  "name": "gahnoo-linux",
+  "version": "1.0",
+  "homepage_url": "https://github.com/ctrlcctrlv/gahnoo-linux.firefox.js",
+  "icons": {
+    "48": "icons/person-48.png"
+  },
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "<all_urls>" 
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
